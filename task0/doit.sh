@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$(uname -s)" == "Darwin" ]; then
+if [ "$(uname -s)" == "gumshoe1" ]; then
     g++ -std=c++14 -o main main.cpp \
         -isystem /opt/homebrew/Cellar/googletest/1.15.2/include \
         -L/opt/homebrew/Cellar/googletest/1.15.2/lib \
